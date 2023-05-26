@@ -4,7 +4,7 @@ from .models import Customer, Product, Cart, OrderPlaced
 from .forms import CustomerRegistrationForm,CustomerProfileForm
 from django.contrib import messages
 from django.http import JsonResponse
-c
+
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 
